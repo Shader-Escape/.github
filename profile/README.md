@@ -20,7 +20,7 @@ Each addon gives one existing mod an exit by wrapping its rendering in EXIT. The
 ## How to help
 
 - Test. Try the shader packs and mods you already use, and report what works and what doesn't. You don't need to write code.
-- Write an addon for a mod you use. Open an issue first so two people don't take the same mod.
+- Write an addon for a mod you use. Open an issue first so two people don't take the same mod. AI assistance is allowed.
 - Request a mod you'd like covered.
 
 <!-- Discord link -->
@@ -29,9 +29,9 @@ AI helped with parts of EXIT's development, mostly porting to older Minecraft ve
 
 ## 中文
 
-可视化和辅助模组一直没法和 Iris 光影一起用。投影、选区框这类渲染一开光影就显示错乱，甚至看不见，玩家只能在画面和工具之间二选一。
+可视化/辅助模组一直难以和 Iris光影 一起使用。投影、选区框这类渲染一开光影就显示错乱，玩家只能在**美好的画面**和**实用的工具**之间二选一。
 
-TheExit 是一个社区项目，想让大家不用再选。它基于 EXIT（应急出口）：一个让模组的世界渲染绕开光影包的库。EXIT 用原版着色器把这些内容画进自己的目标，等光影画完这一帧，再按深度合回画面。方块照样能挡住它，在玻璃和水后面照样会变暗，第一人称的手照样在最前，光影包本身不受影响。
+**TheExit** 是一个社区项目，旨在让大家不用再选。它基于 EXIT（应急出口）：一个让模组的世界渲染绕开光影包的库。EXIT 用原版着色器把这些内容画进自己的目标，等光影画完这一帧，再按深度合回画面。
 
 一帧里具体发生了什么（BSL、Kappa、Super Resolution 的实际截图）：https://shader-escape.github.io/emergency-exit/render-scale/
 
@@ -41,14 +41,12 @@ TheExit 是一个社区项目，想让大家不用再选。它基于 EXIT（应�
 |---|---|
 | [emergency-exit](https://github.com/shader-escape/emergency-exit) | EXIT 库本体。Minecraft 1.16.5 到 26.3，每个版本一个分支。所有版本支持 Fabric，较新的版本还支持 NeoForge。CC0 |
 
-每个附属模组负责一个现有模组，把它的渲染交给 EXIT。有人认领一个模组，这里就多一行。
+每个附属模组负责一个现有模组，把它的渲染交给 EXIT。每有人认领一个模组，这里就多一行。
 
 ### 怎么参与
 
-- 测试：用你平时的光影和模组试一下，告诉我们哪些正常、哪些不正常。不需要会写代码。
-- 写附属模组：给你常用的模组写一个。动手前先开 issue 认领，免得两个人做同一个。
-- 提需求：告诉我们你最想让哪个模组接上。
-
-<!-- Discord / QQ 群：链接 -->
+- 测试：用你平时的光影和模组试一下，协助我们发现问题。你不需要会写代码。
+- 写附属模组：给你常用的模组写一个。动手前先开 issue 认领，避免撞车。允许AI辅助编写。
+- 提需求：告诉我们你想让哪个模组接上。
 
 EXIT 的开发中用到了 AI，主要是按作者制定的规则把它移植到旧版本。设计和决定都由人来做，每个版本都经过测试。贡献者也可以用 AI，只要能解释自己的改动，并在 PR 里写明 AI 做了哪些部分。
