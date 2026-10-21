@@ -14,7 +14,7 @@ https://shader-escape.github.io/emergency-exit/render-scale/
 | Repository | What it is |
 |---|---|
 | [emergency-exit](https://github.com/shader-escape/emergency-exit) | The EXIT library. Minecraft 1.16.5 to 26.3, one branch per version. Fabric on every version, NeoForge on newer ones. CC0 |
-| [litematicapass](https://github.com/shader-escape/litematicapass) | Shader compatibility for Litematica, where EXIT's approach was first worked out. It has its own copy of the rendering and doesn't depend on EXIT yet. Latest release [1.1.2](https://github.com/shader-escape/litematicapass/releases/tag/1.1.2) covers 1.21.1 to 26.3; 1.16.5 to 1.20.6 are in [1.1.0-1.20.6-1.16.5](https://github.com/shader-escape/litematicapass/releases/tag/1.1.0-1.20.6-1.16.5) |
+| [litematicapass](https://github.com/shader-escape/litematicapass) | Shader compatibility for Litematica, where EXIT's approach was first worked out. It has its own copy of the rendering and doesn't depend on EXIT yet. Latest release [1.1.2](https://github.com/shader-escape/litematicapass/releases/tag/1.1.2)  |
 
 Each addon gives one existing mod an exit by wrapping its rendering in EXIT. The list grows as people pick up mods.
 
@@ -41,7 +41,7 @@ AI helped with parts of EXIT's development, mostly porting to older Minecraft ve
 | 仓库 | 内容 |
 |---|---|
 | [emergency-exit](https://github.com/shader-escape/emergency-exit) | EXIT 库本体。Minecraft 1.16.5 到 26.3，每个版本一个分支。所有版本支持 Fabric，较新的版本还支持 NeoForge。CC0 |
-| [litematicapass](https://github.com/shader-escape/litematicapass) | Litematica 的光影兼容模组，EXIT 的做法最早就是在这里摸索出来的。它自带一份渲染实现，目前还不依赖 EXIT。最新版 [1.1.2](https://github.com/shader-escape/litematicapass/releases/tag/1.1.2) 支持 1.21.1 到 26.3；1.16.5 到 1.20.6 见 [1.1.0-1.20.6-1.16.5](https://github.com/shader-escape/litematicapass/releases/tag/1.1.0-1.20.6-1.16.5) |
+| [litematicapass](https://github.com/shader-escape/litematicapass) | Litematica 的光影兼容模组，EXIT 的做法最早就是在这里摸索出来的。它自带一份渲染实现，目前还不依赖 EXIT。最新版 [1.1.2](https://github.com/shader-escape/litematicapass/releases/tag/1.1.2)  |
 
 每个附属模组负责一个现有模组，把它的渲染交给 EXIT。每有人认领一个模组，这里就多一行。
 
